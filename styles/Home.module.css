@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  background: linear-gradient(90deg, #23017e 0%, #abe4fa 100%);
 }
 
 .main {
@@ -113,4 +113,8 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.gradient {
+  background: linear-gradient(90deg, #23017e 0%, #abe4fa 100%);
 }
