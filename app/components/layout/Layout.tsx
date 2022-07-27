@@ -1,8 +1,12 @@
 import { FunctionComponent } from 'react';
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Layout: FunctionComponent = ({ children }: any) => (
   <div className="layout">
-    { children }
+    <Header/>
+        { children }
+    {/*<Footer/>*/}
   </div>
 );
 

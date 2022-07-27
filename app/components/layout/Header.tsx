@@ -1,12 +1,9 @@
-import { FunctionComponent } from 'react';
-
-const Header: FunctionComponent = () => {
-
+const Header = () => {
   return (
-      <nav id="header" className="fixed w-full z-30 top-0 text-white">
+      <div id="header" className="w-full z-30 top-0 text-white gradient-background">
           <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
               <div className="pl-4 flex items-center" style={{ maxWidth: "15%" }}>
-                  <a className="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+                  <a className="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
                       <img src="/logo.jpg" alt=""/>
                   </a>
               </div>
@@ -39,7 +36,7 @@ const Header: FunctionComponent = () => {
               </div>
           </div>
           <hr className="border-b border-gray-100 opacity-25 my-0 py-0" />
-      </nav>
+      </div>
   );
 };
 
