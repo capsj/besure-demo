@@ -1,4 +1,4 @@
-const logoContainer = 'pl-4 mt-0 py-2 flex justify-center sm:justify-start';
+const logoContainer = 'p-4 sm:pl-12 py-2 flex justify-center sm:justify-start';
 
 const Header = () => {
   return (
