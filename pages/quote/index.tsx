@@ -6,11 +6,17 @@ const Quote = () => {
     return (
         <div className={styles.container}>
             <div className={quoteContainer}>
-                <iframe
+                {/*<iframe
                     src="https://amedex.web.app/widget?config=GBzUWqXQgdZnGuZNFGqwlcghiNj1"
                     frameBorder="0"
                     width="428"
-                    height="900"/>
+                    height="900"/>*/}
+
+                <iframe
+                    src="https://amedex.web.app/widget?config=GBzUWqXQgdZnGuZNFGqwlcghiNj1&isMobile=true"
+                    frameBorder="0"
+                    width="428"
+                    height="900"></iframe>
             </div>
         </div>
     );
