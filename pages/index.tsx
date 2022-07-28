@@ -3,14 +3,14 @@ import EndSeparator from "../app/components/layout/EndSeparator";
 import Link from 'next/link';
 
 const styles = {
-    container: 'gradient-background sm:p-10',
+    container: 'gradient-background sm:p-10 grow',
     quoteButton: 'mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out'
 }
 
 const Home = () => {
   return (
     <div className={styles.container}>
-        <main className="leading-normal tracking-normal text-white grow">
+        <main className="leading-normal tracking-normal text-white">
             <div className="sm:p-10 sm:pt-24">
                 <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left my-6 py-4 px-8 sm:my-0 sm:py-0 sm:px-0">
                         <h1 className="my-4 text-5xl font-bold leading-tight">
