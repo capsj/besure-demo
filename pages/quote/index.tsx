@@ -1,7 +1,6 @@
 import styles from "../../styles/Home.module.css";
-import React, { useState, useEffect } from "react";
 
-const quoteContainer = 'flex flex-col items-center sm:pt-8 gradient-background';
+const quoteContainer = 'flex flex-col items-center py-6 sm:py-8 px-4 gradient-background';
 const iframeSrc = 'https://amedex.web.app/widget?config=GBzUWqXQgdZnGuZNFGqwlcghiNj1';
 
 const Quote = () => {
