@@ -3,6 +3,7 @@ import App from 'next/app';
 import '../styles/globals.css';
 import '../styles/Home.module.css';
 import '../pages/index.css';
+import '../pages/quote/quote.css';
 import '../app/components/layout/Footer.css';
 import '../app/components/layout/Layout.css';
 
