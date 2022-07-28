@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
         <main className="leading-normal tracking-normal text-white">
-            <div className="sm:p-10 sm:pt-24">
+            <div className="sm:p-10">
                 <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left my-6 py-4 px-8 sm:my-0 sm:py-0 sm:px-0">
                         <h1 className="my-4 text-5xl font-bold leading-tight">
                             Your key to a secure future
