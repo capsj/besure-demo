@@ -14,14 +14,14 @@ const Home = () => {
             <div className="sm:p-10">
                 <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left my-6 py-4 px-8 sm:my-0 sm:py-0 sm:px-0">
                         <h1 className="my-4 text-5xl font-bold leading-tight">
-                            Your key to a secure future
+                            Su clave para un futuro seguro
                         </h1>
                         <p className="leading-normal text-2xl mb-8">
-                            Life insurance through an easy-to-use digital platform and without medical exams up to US$1,000,000.
+                            Seguros de vida a través de una plataforma digital fácil de usar, y sin exámenes médicos para pólizas hasta US$1,000,000.
                         </p>
                         <Link href='/pages/quote' as={'/quote'} passHref={true}>
                             <button className={styles.quoteButton}>
-                                Quote now!
+                                ¡Cotiza ahora!
                             </button>
                         </Link>
                     </div>
