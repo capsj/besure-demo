@@ -12,14 +12,14 @@ const Quote = () => {
                     className='max-w-full rounded-2xl hidden md:block'
                     frameBorder="0"
                     width="428"
-                    height="900"></iframe>
+                    height="831"></iframe>
 
                 <iframe
-                    src={iframeSrc + '&isMobile=true'}
+                    src='https://amedex.web.app/widget?config=GBzUWqXQgdZnGuZNFGqwlcghiNj1&isMobile=true'
                     className='max-w-full rounded-2xl block md:hidden'
                     frameBorder="0"
                     width="428"
-                    height="900"></iframe>
+                    height="831"></iframe>
             </div>
         </div>
     );
